@@ -1,0 +1,65 @@
+{
+    "db_destino": {
+        "alias": "localhost_restaurante",
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "restaurante_unificado"
+    },
+    
+    "db_origenes": [
+        {
+            "alias": "Sucursal 0",
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "restaurante",
+            "consolidation_status": {
+                "status": "aperturado",
+                "timestamp": "2025-09-22T00:24:28.405079",
+                "latest_inserts": 0,
+                "failed_inserts": 0
+            }
+        },
+        {
+            "alias": "Sucursal 1",
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "restaurante_1",
+            "consolidation_status": {
+                "status": "aperturado",
+                "timestamp": "2025-09-22T00:24:28.405079",
+                "latest_inserts": 0,
+                "failed_inserts": 0
+            }
+
+        },
+        {
+            "alias": "Sucursal 2",
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "restaurante_2",
+            "consolidation_status": {
+                "status": "aperturado",
+                "timestamp": "2025-09-22T00:24:28.405079",
+                "latest_inserts": 0,
+                "failed_inserts": 0
+            }
+        },
+        {
+            "alias": "Sucursal 3",
+            "host": "localhost",
+            "user": "root",
+            "password": "",
+            "database": "restaurante_3",
+            "consolidation_status": {
+                "status": "aperturado",
+                "timestamp": "2025-09-22T00:24:28.405079",
+                "latest_inserts": 0,
+                "failed_inserts": 0
+            }
+        }
+    ]
+}

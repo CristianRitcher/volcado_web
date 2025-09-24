@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown JSON</title>
+    <link rel="stylesheet" href="assets/styles.css">
+
+</head>
+
+<body>
+    <div id="db_origen_container">
+        <p id="db_destino">Selecciona la base de datos de origen:</p>
+        <select id="miDropdown"></select>
+        <p id="db_destino">Ingresa la contrasena del origen:</p>
+        <input type="password" id="db_password_origen">
+    </div>
+
+    <div id="db_destino_container"> 
+        <p id="db_destino">Ingresa la contrasena del destino:</p>
+        <input type="password" id="db_password_destino">
+    </div>
+
+    <div id="btn_container">
+        <button id="btn_cierre" onclick="cierre()">Cierre</button>
+        <button id="btn_apertura" onclick="apertura()">Apertura</button>
+    </div>
+
+    <script src="assets/scripts.js"></script>  
+
+</body>
+
+</html>

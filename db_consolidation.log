@@ -1,0 +1,118 @@
+2025-09-24 15:29:33,358 - INFO - Tomando snapshot de todas las bases de datos fuente...
+2025-09-24 15:29:33,359 - INFO - Procesando fuente: Sucursal 0
+2025-09-24 15:29:33,579 - INFO - package: mysql.connector.plugins
+2025-09-24 15:29:33,579 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:29:33,580 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:29:33,806 - INFO - Snapshot guardado con 1 fuentes de datos
+2025-09-24 15:37:09,796 - INFO - Iniciando consolidación de cambios...
+2025-09-24 15:37:09,824 - INFO - package: mysql.connector.plugins
+2025-09-24 15:37:09,824 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:37:09,825 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:37:09,882 - INFO - Creando/actualizando tabla consolidada: alineacion
+2025-09-24 15:37:09,884 - INFO - Tabla alineacion lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,884 - INFO - Creando/actualizando tabla consolidada: catalogo_areas
+2025-09-24 15:37:09,885 - INFO - Tabla catalogo_areas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,885 - INFO - Creando/actualizando tabla consolidada: catalogo_bancos
+2025-09-24 15:37:09,885 - INFO - Tabla catalogo_bancos lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,885 - INFO - Creando/actualizando tabla consolidada: catalogo_categorias
+2025-09-24 15:37:09,886 - INFO - Tabla catalogo_categorias lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,886 - INFO - Creando/actualizando tabla consolidada: catalogo_denominaciones
+2025-09-24 15:37:09,886 - INFO - Tabla catalogo_denominaciones lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,886 - INFO - Creando/actualizando tabla consolidada: catalogo_folios
+2025-09-24 15:37:09,887 - INFO - Tabla catalogo_folios lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,887 - INFO - Creando/actualizando tabla consolidada: catalogo_promos
+2025-09-24 15:37:09,887 - INFO - Tabla catalogo_promos lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,887 - INFO - Creando/actualizando tabla consolidada: catalogo_tarjetas
+2025-09-24 15:37:09,888 - INFO - Tabla catalogo_tarjetas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,888 - INFO - Creando/actualizando tabla consolidada: clientes_facturacion
+2025-09-24 15:37:09,888 - INFO - Tabla clientes_facturacion lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,888 - INFO - Creando/actualizando tabla consolidada: conekta_events
+2025-09-24 15:37:09,888 - INFO - Tabla conekta_events lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,889 - INFO - Creando/actualizando tabla consolidada: conekta_payments
+2025-09-24 15:37:09,889 - INFO - Tabla conekta_payments lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,889 - INFO - Creando/actualizando tabla consolidada: corte_caja
+2025-09-24 15:37:09,890 - INFO - Tabla corte_caja lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,890 - INFO - Creando/actualizando tabla consolidada: corte_caja_historial
+2025-09-24 15:37:09,890 - INFO - Tabla corte_caja_historial lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,890 - INFO - Creando/actualizando tabla consolidada: cortes_almacen
+2025-09-24 15:37:09,890 - INFO - Tabla cortes_almacen lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,890 - INFO - Creando/actualizando tabla consolidada: cortes_almacen_detalle
+2025-09-24 15:37:09,891 - INFO - Tabla cortes_almacen_detalle lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,891 - INFO - Creando/actualizando tabla consolidada: desglose_corte
+2025-09-24 15:37:09,892 - INFO - Tabla desglose_corte lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,892 - INFO - Creando/actualizando tabla consolidada: entradas_detalle
+2025-09-24 15:37:09,892 - INFO - Tabla entradas_detalle lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,892 - INFO - Creando/actualizando tabla consolidada: entradas_insumo
+2025-09-24 15:37:09,893 - INFO - Tabla entradas_insumo lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,893 - INFO - Creando/actualizando tabla consolidada: factura_detalles
+2025-09-24 15:37:09,893 - INFO - Tabla factura_detalles lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,893 - INFO - Creando/actualizando tabla consolidada: factura_tickets
+2025-09-24 15:37:09,893 - INFO - Tabla factura_tickets lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,893 - INFO - Creando/actualizando tabla consolidada: facturas
+2025-09-24 15:37:09,894 - INFO - Tabla facturas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,894 - INFO - Creando/actualizando tabla consolidada: fondo
+2025-09-24 15:37:09,894 - INFO - Tabla fondo lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,894 - INFO - Creando/actualizando tabla consolidada: horarios
+2025-09-24 15:37:09,895 - INFO - Tabla horarios lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,895 - INFO - Creando/actualizando tabla consolidada: insumos
+2025-09-24 15:37:09,895 - INFO - Tabla insumos lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,895 - INFO - Creando/actualizando tabla consolidada: log_asignaciones_mesas
+2025-09-24 15:37:09,896 - INFO - Tabla log_asignaciones_mesas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,896 - INFO - Creando/actualizando tabla consolidada: log_cancelaciones
+2025-09-24 15:37:09,896 - INFO - Tabla log_cancelaciones lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,896 - INFO - Creando/actualizando tabla consolidada: log_mesas
+2025-09-24 15:37:09,897 - INFO - Tabla log_mesas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,897 - INFO - Creando/actualizando tabla consolidada: logs_accion
+2025-09-24 15:37:09,897 - INFO - Tabla logs_accion lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,897 - INFO - Creando/actualizando tabla consolidada: menu_dia
+2025-09-24 15:37:09,897 - INFO - Tabla menu_dia lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,897 - INFO - Creando/actualizando tabla consolidada: mesas
+2025-09-24 15:37:09,898 - INFO - Tabla mesas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,898 - INFO - Creando/actualizando tabla consolidada: movimientos_caja
+2025-09-24 15:37:09,898 - INFO - Tabla movimientos_caja lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,898 - INFO - Creando/actualizando tabla consolidada: movimientos_insumos
+2025-09-24 15:37:09,899 - INFO - Tabla movimientos_insumos lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,899 - INFO - Creando/actualizando tabla consolidada: ofertas_dia
+2025-09-24 15:37:09,899 - INFO - Tabla ofertas_dia lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,899 - INFO - Creando/actualizando tabla consolidada: productos
+2025-09-24 15:37:09,900 - INFO - Tabla productos lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,900 - INFO - Creando/actualizando tabla consolidada: proveedores
+2025-09-24 15:37:09,900 - INFO - Tabla proveedores lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,900 - INFO - Creando/actualizando tabla consolidada: qrs_insumo
+2025-09-24 15:37:09,901 - INFO - Tabla qrs_insumo lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,901 - INFO - Creando/actualizando tabla consolidada: recetas
+2025-09-24 15:37:09,901 - INFO - Tabla recetas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,901 - INFO - Creando/actualizando tabla consolidada: repartidores
+2025-09-24 15:37:09,901 - INFO - Tabla repartidores lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,901 - INFO - Creando/actualizando tabla consolidada: rutas
+2025-09-24 15:37:09,902 - INFO - Tabla rutas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,902 - INFO - Creando/actualizando tabla consolidada: sedes
+2025-09-24 15:37:09,902 - INFO - Tabla sedes lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,902 - INFO - Creando/actualizando tabla consolidada: ticket_descuentos
+2025-09-24 15:37:09,902 - INFO - Tabla ticket_descuentos lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,902 - INFO - Creando/actualizando tabla consolidada: ticket_detalles
+2025-09-24 15:37:09,903 - INFO - Tabla ticket_detalles lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,903 - INFO - Creando/actualizando tabla consolidada: tickets
+2025-09-24 15:37:09,903 - INFO - Tabla tickets lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,903 - INFO - Creando/actualizando tabla consolidada: usuario_ruta
+2025-09-24 15:37:09,904 - INFO - Tabla usuario_ruta lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,904 - INFO - Creando/actualizando tabla consolidada: usuarios
+2025-09-24 15:37:09,904 - INFO - Tabla usuarios lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,904 - INFO - Creando/actualizando tabla consolidada: venta_detalles
+2025-09-24 15:37:09,905 - INFO - Tabla venta_detalles lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,905 - INFO - Creando/actualizando tabla consolidada: venta_detalles_cancelados
+2025-09-24 15:37:09,906 - INFO - Tabla venta_detalles_cancelados lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,906 - INFO - Creando/actualizando tabla consolidada: venta_detalles_log
+2025-09-24 15:37:09,906 - INFO - Tabla venta_detalles_log lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,906 - INFO - Creando/actualizando tabla consolidada: ventas
+2025-09-24 15:37:09,907 - INFO - Tabla ventas lista para consolidación desde: Sucursal 0
+2025-09-24 15:37:09,907 - INFO - Consolidando cambios de: Sucursal 0
+2025-09-24 15:37:10,051 - INFO - Guardados 0 inserts fallidos
+2025-09-24 15:37:10,051 - INFO - Consolidación completada
+2025-09-24 15:41:34,466 - INFO - Tomando snapshot de todas las bases de datos fuente...
+2025-09-24 15:41:34,467 - INFO - Cargados 0 inserts fallidos
+2025-09-24 15:41:34,467 - INFO - Procesando fuente: Sucursal 0
+2025-09-24 15:41:34,486 - INFO - package: mysql.connector.plugins
+2025-09-24 15:41:34,486 - INFO - plugin_name: mysql_native_password
+2025-09-24 15:41:34,487 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2025-09-24 15:41:34,671 - INFO - Snapshot guardado con 1 fuentes de datos
