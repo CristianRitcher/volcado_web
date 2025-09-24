@@ -139,3 +139,9 @@ mysql-connector-python>=8.0.0
 **Error 404**: Verificar que Apache esté corriendo y la ruta sea correcta
 **Error de permisos**: Asegurar que Python tenga permisos de escritura en el directorio
 **Error de conexión MySQL**: Verificar credenciales en `alias.json`
+
+### estructura
+```bash
+python3 estructura.py host:user:password:source_db \
+  host:user:password:target_db
+```
