@@ -87,9 +87,9 @@ export FLASK_DEBUG=1
 
 log_success "Setup completed successfully!"
 echo "=========================================================="
-log_info "🌐 Starting Flask development server..."
-log_info "📍 Access the application at: http://localhost:5001"
-log_info "🛑 Press Ctrl+C to stop the server"
+log_info "Starting Flask development server..."
+log_info "Access the application at: http://localhost:5001"
+log_info "Press Ctrl+C to stop the server"
 echo "=========================================================="
 
 # Start Flask application

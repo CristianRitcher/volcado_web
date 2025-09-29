@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-"""
-Flask Application Runner
-Database Consolidation System
-"""
-
 import os
 import sys
 from pathlib import Path
@@ -30,10 +25,10 @@ def main():
     port = int(os.environ.get('FLASK_PORT', 5001))  # Changed default port to avoid AirPlay conflict
     debug = app.config.get('DEBUG', True)
     
-    print(f"🚀 Starting {app.config.get('APP_NAME', 'Flask App')}")
-    print(f"📍 URL: http://{host}:{port}")
-    print(f"🔧 Environment: {config_name}")
-    print(f"🐛 Debug mode: {debug}")
+    print(f"Starting {app.config.get('APP_NAME', 'Flask App')}")
+    print(f"URL: http://{host}:{port}")
+    print(f"Environment: {config_name}")
+    print(f"Debug mode: {debug}")
     print("-" * 50)
     
     app.run(
