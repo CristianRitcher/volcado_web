@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcado Web - Database Consolidation System</title>
+    <link rel="stylesheet" href="{{ url_for('serve_assets', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Volcado Web</h1>
+            <p>Consolidación de Bases de Datos MySQL</p>
+        </header>
+
+        <main>
+            <div class="form-section">
+                <div id="db_origen_container" class="form-group">
+                    <label for="miDropdown">Selecciona la base de datos de origen:</label>
+                    <select id="miDropdown" class="form-control">
+                        <option value="">-- Seleccionar sucursal --</option>
+                    </select>
+                    
+                    <label for="db_password_origen">Contraseña del origen:</label>
+                    <input type="password" id="db_password_origen" class="form-control" placeholder="Dejar vacío si no tiene contraseña">
+                </div>
+
+                <div id="db_destino_container" class="form-group"> 
+                    <label for="db_password_destino">Contraseña del destino:</label>
+                    <input type="password" id="db_password_destino" class="form-control" placeholder="Dejar vacío si no tiene contraseña">
+                </div>
+
+                <div id="btn_container" class="button-group">
+                    <button id="btn_apertura" class="btn btn-primary" onclick="apertura()">
+                        Apertura (Snapshot)
+                    </button>
+                    <button id="btn_cierre" class="btn btn-success" onclick="cierre()">
+                        Cierre (Consolidar)
+                    </button>
+                </div>
+            </div>
+
+            <div id="status_container" class="status-section">
+                <h3>Estado del Sistema</h3>
+                <div id="status_info" class="status-info">
+                    <p>🟢 Sistema en línea</p>
+                </div>
+            </div>
+
+            <div id="logs_container" class="logs-section">
+                <h3>Registro de Actividad</h3>
+                <div id="logs_content" class="logs-content">
+                    <p>Esperando operaciones...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('serve_assets', filename='scripts.js') }}"></script>  
+</body>
+
+</html>
